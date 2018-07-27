@@ -1,7 +1,7 @@
 /* Syling across all pages */
 body {
     margin: 0;
-background-image: url(./../images/oldMoon.jpg);
+background-image: url(./../images/brickwall_@2X.png);
 }
 h1 {
     margin: 0;
@@ -97,7 +97,7 @@ a:hover {
     background-color: #ffffff;
     margin: auto;
     width: 960px;
-    height: 600px;
+    height: 530px;
 }
 /* End of index.html styling */
 /* Contact.html Styling */
@@ -107,7 +107,7 @@ a:hover {
     height: 340px;
     margin: auto;
     border-top: 3px solid #cccccc;
-    background-color: wheat;
+    background-color: #ffffff;
 }
 .name, .email, .message{
     color: #777777;
@@ -115,7 +115,7 @@ a:hover {
     padding: 5px;
 }
 input {
-    width: 100%;
+    width: 875px;
     padding: 5px;
     margin-top: 10px;
 }
@@ -124,10 +124,43 @@ textarea {
     height: 100px;
     margin-top: 10px;
 }
-.submitButton {
+#submitButton {
+    background: #4aaaa5;
     width: 100px;
+    border: none;
+    color: #ffffff;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 90px;
+    padding: 10px;
+
 }
 /* End contact.html  */
+/*portfolio.html styling*/
+.mainPortfolioContainer {
+    background-color: #ffffff;
+    margin: auto;
+    width: 960px;
+    height: 490px;
+}
+.portfolioContainer {
+    width: 200px;
+    height:150px;
+    float: left;
+    margin: 30px 30px 0px 0px;
+    position: relative;
+    background: lavenderblush;
+}
+.portfolioLink {
+    position: absolute;
+    bottom: 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    size: 20px;
+}
 /* Footer styling */
 footer {
     background-color: #666666;
