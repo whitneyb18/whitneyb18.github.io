@@ -1,7 +1,7 @@
 /* Syling across all pages */
 body {
     margin: 0;
-background-image: url(./../images/brickwall_@2X.png);
+    background-image: url(./../images/brickwall_@2X.png);
 }
 h1 {
     margin: 0;
@@ -160,6 +160,12 @@ textarea {
     padding: 20px 0px 20px 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     size: 20px;
+}
+a.portfolioLink:link {
+    color: white;
+}
+a.portfolioLink:visited {
+    color: #ffffff;
 }
 /* Footer styling */
 footer {
